@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kutenga servicos</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="short icon" type="image/png" href="IMAGES/mask.png">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+       
+</head>
+<body>
+
+	<!-- <div class="backgroundDiv"> -->
+		<!-- <img src="Background.jpg" alt="background image"> -->
+		<!--<div id="form">
+			<div><img id="logo" src="images/mask.png" style="height:25%; width:25%;text-align:center" alt="Logo"></div>
+			<div id="welcome"><label>Sobre Nos</label></div>
+			<div id="about"><label>A Kutenga Servicos de  Saude e uma clinica especializada na area de medicina...</label></div>
+			
+		</div>-->
+
+		<div id="bar">
+			<div id="home" ><label>Bem vindo</label></div>
+			<div id="menu"><a href="index.html"><label>MENU</label></a></div>
+			
+			<div id="contact"><a href="contactUs.html"><label>CONTACTAR-NOS</label></a></div>
+			
+		</div>
+
+		
+<!-- featured section starts  -->
+<div id="deals">
+    <h1>Nossos equipamentos</h1>
+<section class="featured" id="featured">
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/bg2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Anti-flamatorios</h3>
+                    <div class="price">500 mt <span>600 mt</span></div>
+                    <a href="#" class="btn">Solicitar</a>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/equ4.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Anti-flamatorios</h3>
+                    <div class="price">500 mt <span>600 mt</span></div>
+                    <a href="#" class="btn">Solicitar</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                   
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/equ5.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Anti-flamatorios</h3>
+                    <div class="price">500 mt <span>600 mt</span></div>
+                    <a href="#" class="btn">Solicitar</a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+</div>
+	<!-- </div> -->
+    
+    <div class="loader-container">
+        <img src="images/loader-img.gif" alt="">
+    </div>
+<script src="jquery-3.6.0.min.js"></script>
+<script src="swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
+    <script src="main.js"></script>
+<script>
+    
+
+var swiper = new Swiper(".featured-slider", {
+  spaceBetween: 10,
+  loop:true,
+  centeredSlides: true,
+  autoplay: {
+    delay: 9500,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    450: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    1024: {
+      slidesPerView: 4,
+    },
+  },
+});
+
+</script>
+</body>
+</html>
